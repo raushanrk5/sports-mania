@@ -3,7 +3,7 @@ body{
 }
 
 #header{
-  background-image: url("sport-red-glitter.jpg");
+  background-image: url("images/sport-red-glitter.jpg");
   height: 95vh;
   background-size: cover;
   background-position: center;
@@ -60,6 +60,31 @@ nav .fa-bars{
   height: 250px;
 }
 
+#services{
+  background-color: #fff;
+  padding: 50px 0;
+  margin-bottom: 5%;
+}
+
+#services .col-md-6{
+  padding: 20px;
+}
+
+#services .col-md-6 h4{
+  padding: 5px;
+}
+
+#services .col-md-6 img{
+  width: 70px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#services .col-md-6 p{
+  text-align: justify;
+  padding: 5px;
+}
+
 #team {
     background: #eee !important;
 }
@@ -78,16 +103,16 @@ nav .fa-bars{
     border-color: #007b5e;
 }
 
-/* section {
-    padding: 60px 0;
-} */
+section {
+    padding: 10px 0;
+}
 
-/* section .section-title {
+section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #008b8b;
     margin-bottom: 50px;
-    text-transform: uppercase;
-} */
+    font-size: 50px;
+}
 
 #team .card {
     border: none;
