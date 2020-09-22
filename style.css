@@ -107,11 +107,11 @@ nav .fa-bars{
     border-color: #007b5e;
 }
 
-section {
+#team {
     padding: 10px 0;
 }
 
-section .section-title {
+#team .section-title {
     text-align: center;
     color: #008b8b;
     margin-bottom: 50px;
@@ -225,12 +225,13 @@ section .section-title {
 }
 
 #facilities{
+  padding: 20px 10px;
   margin:10px 0;
   background-color: #fff;
 }
 
 #facilities .col-md-6{
-  padding:0 10px;
+  padding:10px;
 }
 
 #facilities .col-md-6 h2{
@@ -246,8 +247,9 @@ section .section-title {
 }
 
 #facilities .col-md-6 p{
-  font-size: 19px;
+  font-size: 18px;
   padding: 20px 15px;
+  margin-bottom: 10px;
 }
 
 #facilities span{
