@@ -1,12 +1,16 @@
 body{
   background-color: #eee;
+  height: 100%;
 }
 
 #header{
   background-image: url("sport-red-glitter.jpg");
   height: 95vh;
+  background-repeat: no-repeat;
+  -webkit-background-size:cover;
   background-size: cover;
   background-position: center;
+  /* background-attachment: fixed; */
 }
 
 .navbar-toggler{
@@ -220,6 +224,36 @@ section .section-title {
     border-radius: 2%;
 }
 
+#facilities{
+  margin:10px 0;
+  background-color: #fff;
+}
+
+#facilities .col-md-6{
+  padding:0 10px;
+}
+
+#facilities .col-md-6 h2{
+  padding: 10px;
+  color: #008b8b;
+}
+
+#facilities .col-md-6 img{
+  border-radius: 15px;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 10px;
+}
+
+#facilities .col-md-6 p{
+  font-size: 19px;
+  padding: 20px 15px;
+}
+
+#facilities span{
+  color:#8b0000;
+  font-weight: bold;
+}
 
 .site-footer
 {
@@ -267,7 +301,7 @@ section .section-title {
   display:block
 }
 
-.footer_text{
+.footer_text p{
   opacity: 0.8;
 }
 
@@ -391,7 +425,7 @@ section .section-title {
 }
 .social-icons a.instagram:hover
 {
-  background-color:#ea4c89
+  background-color:#E1306C
 }
 @media (max-width:767px)
 {
