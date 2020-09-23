@@ -128,21 +128,21 @@ nav .fa-bars{
   margin-bottom: 5%;
 }
 
-#services .col-md-6{
+#services .col-md-12{
   padding: 20px;
 }
 
-#services .col-md-6 h4{
+#services .col-md-12 h4{
   padding: 5px;
 }
 
-#services .col-md-6 img{
+#services .col-md-12 img{
   width: 70px;
   border-radius: 50%;
   padding: 5px;
 }
 
-#services .col-md-6 p{
+#services .col-md-12 p{
   text-align: justify;
   padding: 5px;
 }
